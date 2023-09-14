@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(Foto/background.png);      /* BURADAN WEB SİTESİNİN ARKAPLANINDAKİ FOTOĞRAFI DEĞİŞTİREBİLİRSİN */
+    background-size: cover;
+}
+
+.card{
+    position: absolute;
+    width: 480px;
+    color: white;
+    background: rgba(0, 0, 0, 0.43);
+    border-radius: 1rem;
+    padding: 1.3rem 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid black
+}
+
+.card header{
+    cursor: all-scroll;
+    text-align: center;
+    user-select: none;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.card .card-body{
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.card .card-body .logo{
+    text-align: center;
+}
+
+.card .card-body .logo h4{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.card .card-body .logo img{
+    max-width: 120px;
+}
+
+.card .card-body a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
+.card .card-body p{
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.card .card-body h4{
+    margin: 10px 0;
+}
+
+.card .card-body ul{
+    margin-top: 0;
+}
+
+.card footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.card footer button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* BURADAN BUTONLARIN AYARINI DEĞİŞTİREBİLİRSİN */
+
+.card footer button.instagram{
+    background-color: #E1306C;                
+    color: black;
+}
+
+.card footer button.instagram:hover{
+    color: white;
+}
+
+.card footer button.twitter{
+    background-color: #1DA1F2;
+    color: black;
+}
+
+.card footer button.twitter:hover{
+    color: white;
+}
+
+
+
